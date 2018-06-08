@@ -16,8 +16,13 @@ function iLoveTheBeatles(number){
   var statements =[]
   var iteration = 0
   do{
+    if(iteration < 15){
     statements.push("I love the Beatles!")
     iteration++
-  } while(iteration <= (number || 13))
+    }
+    else {
+      return statements["I love the Beateles!"]
+    }
+  } while(iteration <= number
   return statements
 }
