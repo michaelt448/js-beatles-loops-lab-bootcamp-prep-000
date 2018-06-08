@@ -19,6 +19,7 @@ function iLoveTheBeatles(number){
   var iteration = 0
   do{
     statements.push("I love the Beatles!")
-    i++
-  }while(i < 15)
+    iteration++
+  } while(i < 15)
+  return statements
 }
