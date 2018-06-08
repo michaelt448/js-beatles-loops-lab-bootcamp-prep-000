@@ -21,7 +21,7 @@ function iLoveTheBeatles(number){
     iteration++
     }
     else {
-      return statements["I love the Beateles!"]
+      return ["I love the Beateles!"]
     }
   } while(iteration <= number)
   return statements
