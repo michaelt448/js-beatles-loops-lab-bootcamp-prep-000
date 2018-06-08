@@ -18,6 +18,6 @@ function iLoveTheBeatles(number){
   do{
     statements.push("I love the Beatles!")
     iteration++
-  } while(iteration < number)
+  } while(iteration < (number || 15))
   return statements
 }
