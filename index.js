@@ -14,10 +14,10 @@ function johnLennonFacts(facts){
 }
 function iLoveTheBeatles(number){
   var statements =[]
-  var iteration = 1
+  var iteration = 0
   do{
     statements.push("I love the Beatles!")
     iteration++
-  } while(iteration < (number || 15))
+  } while(iteration <= (number || 15))
   return statements
 }
